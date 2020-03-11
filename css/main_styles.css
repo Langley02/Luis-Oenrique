@@ -289,4 +289,15 @@ header .navbar .nav-item {
       -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
       box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27); }
 
+.testimonial {
+  padding: 150px 0 122px; }
+  .testimonial img {
+    width: 159px;
+    height: 159px;
+    padding: 0; }
+
+.result {
+  background-color: #f6f6f6;
+  padding: 52px 0 65px; }
+
 /*# sourceMappingURL=main_styles.css.map */

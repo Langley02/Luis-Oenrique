@@ -1,21 +1,11 @@
 $(document).ready(function () {
 
     $('.owl-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         nav: true,
+        item: 1,
         navText: ['', ''],
 
-        responsive: {
-            0: {
-                items: 1,
-                margin: 30,
-            },
-
-            769: {
-                items: 2,
-                margin: 30,
-            }
-        }
     });
 
     $("a.nav-link").click(function() {
