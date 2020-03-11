@@ -1,6 +1,42 @@
 @import "fonts";
 
+#back_to_top {
+  display: inline-block;
+  background-color: #FFFFff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  border: solid 1px black;
+  bottom: 193px;
+  right: 30px;
+  transition: background-color .3s,
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 5;
 
+  &::after {
+    content: "\f077";
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Free';
+    font-weight: 900;
+    line-height: 40px;
+    color: black;
+  }
+
+  &:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+    border: none;
+  }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+}
 
 header {
   .background {

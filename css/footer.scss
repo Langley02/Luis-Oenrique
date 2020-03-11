@@ -1,0 +1,78 @@
+@import "fonts";
+
+footer {
+  .footer_border {
+    border-top: solid 1px #FFFFFF;
+
+    a {
+      text-decoration: none;
+      color: black;
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      background-color: #FFFFFF;
+      text-align: center;
+      margin-top: 26px;
+      margin-right: 9px;
+
+      &:hover {
+        background-color: #072be0;
+        color: #FFFFFF;
+      }
+
+      &:focus {
+        background-color: #072be0;
+        color: #FFFFFF;
+      }
+
+      &:nth-of-type(2):hover {
+        background-color: #0084b4;
+      }
+
+      &:nth-of-type(2):focus {
+        background-color: #0084b4;
+      }
+
+      &:nth-of-type(3):hover {
+        background-color: #03a5fc;
+      }
+
+      &:nth-of-type(3):focus {
+        background-color: #03a5fc;
+      }
+
+      &:nth-of-type(4):hover {
+        background-color: red;
+      }
+
+      &:nth-of-type(4):focus {
+        background-color: red;
+      }
+
+      &:nth-of-type(5):hover {
+        background-color: black;
+        color: #FFFFFF;
+      }
+
+      &:nth-of-type(5):focus {
+        background-color: black;
+        color: #FFFFFF;
+      }
+
+      &:nth-of-type(6):hover {
+        background-color: #d703fc;
+      }
+
+      &:nth-of-type(6):focus {
+        background-color: #d703fc;
+      }
+    }
+
+    h3 {
+      font-size: 16px;
+      font-family: "Montserrat-Regular";
+      color: #FFFFFF;
+      margin-top: 26px;
+    }
+  }
+}
