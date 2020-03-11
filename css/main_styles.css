@@ -326,5 +326,12 @@ header .navbar .nav-item {
 .result {
   background-color: #f6f6f6;
   padding: 52px 0 65px; }
+  .result p {
+    font-size: 30px;
+    font-family: "Asap-Regular";
+    margin: 15px 0 0; }
+  .result h3 {
+    font-size: 22px;
+    font-family: "Asap-Medium"; }
 
 /*# sourceMappingURL=main_styles.css.map */
