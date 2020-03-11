@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
-    $('.owl-carousel').owlCarousel({
-        loop: false,
-        nav: true,
-        item: 1,
-        navText: ['', ''],
-
-    });
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        items: 1,
+    })
 
     $("a.nav-link").click(function() {
         var elementClick = $(this).attr("href")

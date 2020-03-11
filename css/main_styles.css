@@ -291,10 +291,37 @@ header .navbar .nav-item {
 
 .testimonial {
   padding: 150px 0 122px; }
-  .testimonial img {
-    width: 159px;
-    height: 159px;
-    padding: 0; }
+  .testimonial .owl-carousel {
+    border: solid 1px black;
+    height: 350px; }
+    .testimonial .owl-carousel .row {
+      height: 160px;
+      margin-top: 82px; }
+      .testimonial .owl-carousel .row img {
+        width: 159px;
+        height: 159px; }
+      .testimonial .owl-carousel .row h4 {
+        font-size: 30px;
+        font-family: "Asap-Medium";
+        margin: 0; }
+      .testimonial .owl-carousel .row .prof {
+        font-size: 12px;
+        font-family: "Asap-Italic";
+        margin-bottom: 7px; }
+      .testimonial .owl-carousel .row .comment {
+        font-size: 16px;
+        font-family: "Asap-Regular";
+        color: #7a7a7a; }
+  .testimonial .owl-theme .owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+    background: inherit;
+    border-radius: 0;
+    border: solid 1px black; }
+  .testimonial .owl-theme .owl-dots .owl-dot.active span {
+    background: black; }
+  .testimonial .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 56px; }
 
 .result {
   background-color: #f6f6f6;

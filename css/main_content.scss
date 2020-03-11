@@ -238,14 +238,60 @@
 .testimonial {
   padding: 150px 0 122px;
 
+  .owl-carousel {
+    border: solid 1px black;
+    height: 350px;
 
-  img {
-    width: 159px;
-    height: 159px;
-    padding: 0;
+    .row {
+      height: 160px;
+      margin-top: 82px;
 
+      img {
+        width: 159px;
+        height: 159px;
+      }
+
+      h4 {
+        font-size: 30px;
+        font-family: "Asap-Medium";
+        margin: 0;
+      }
+
+      .prof {
+        font-size: 12px;
+        font-family: "Asap-Italic";
+        margin-bottom: 7px;
+      }
+
+      .comment {
+        font-size: 16px;
+        font-family: "Asap-Regular";
+        color: #7a7a7a;
+      }
+    }
   }
 
+  .owl-theme {
+    .owl-dots {
+      .owl-dot {
+        span {
+          width: 13px;
+          height: 13px;
+          background: inherit;
+          border-radius: 0;
+          border: solid 1px black;
+        }
+      }
+    }
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span {
+    background: black;
+  }
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 56px;
+  }
 }
 
 .result {
