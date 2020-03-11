@@ -238,6 +238,25 @@
 .testimonial {
   padding: 150px 0 122px;
 
+  h3 {
+    font-size: 46px;
+    font-family: "Asap-Bold";
+    color: #717171;
+    letter-spacing: 9px;
+    margin-bottom: 55px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 4px;
+      display: block;
+      background-color: #6f6f6f;
+      position: relative;
+      left: 47%;
+      bottom: 10px;
+    }
+  }
+
   .owl-carousel {
     border: solid 1px black;
     height: 350px;
@@ -307,5 +326,83 @@
   h3 {
     font-size: 22px;
     font-family: "Asap-Medium";
+  }
+}
+
+.empty {
+  height: 154px;
+}
+
+.contact_us {
+  height: 703px;
+
+  h3 {
+    font-size: 46px;
+    font-family: "Asap-Bold";
+    letter-spacing: 9px;
+    margin: 165px 0 65px;
+
+    &:before {
+      content: "";
+      width: 60px;
+      height: 4px;
+      display: block;
+      background-color: #6f6f6f;
+      position: relative;
+      left: 47%;
+      bottom: 10px;
+    }
+  }
+
+  form {
+    .form-control {
+      border-radius: 0;
+      border: none;
+    }
+
+    input {
+      height: 57px;
+    }
+
+    textarea {
+      resize: none;
+      height: 207px;
+    }
+
+    button {
+      color: black;
+      font-size: 16px;
+      font-family: "Asap-Medium";
+      display: inline-block;
+      width: 123px;
+      line-height: 50px;
+      text-align: center;
+      margin-top: 30px;
+      border: none;
+      background-color: #FFFFFF;
+
+      &:hover {
+        background-color: #ffffff;
+        border: solid 1px white;
+        -webkit-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+        -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+        box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      }
+
+      &:focus {
+        background-color: #ffffff;
+        border: solid 1px white;
+        -webkit-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+        -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+        box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      }
+
+      &:after {
+        content: "\f124";
+        font-weight: 900;
+        font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Free';
+        margin-left: 7px;
+      }
+    }
   }
 }

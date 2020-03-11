@@ -291,6 +291,21 @@ header .navbar .nav-item {
 
 .testimonial {
   padding: 150px 0 122px; }
+  .testimonial h3 {
+    font-size: 46px;
+    font-family: "Asap-Bold";
+    color: #717171;
+    letter-spacing: 9px;
+    margin-bottom: 55px; }
+    .testimonial h3:before {
+      content: "";
+      width: 60px;
+      height: 4px;
+      display: block;
+      background-color: #6f6f6f;
+      position: relative;
+      left: 47%;
+      bottom: 10px; }
   .testimonial .owl-carousel {
     border: solid 1px black;
     height: 350px; }
@@ -333,5 +348,61 @@ header .navbar .nav-item {
   .result h3 {
     font-size: 22px;
     font-family: "Asap-Medium"; }
+
+.empty {
+  height: 154px; }
+
+.contact_us {
+  height: 703px; }
+  .contact_us h3 {
+    font-size: 46px;
+    font-family: "Asap-Bold";
+    letter-spacing: 9px;
+    margin: 165px 0 65px; }
+    .contact_us h3:before {
+      content: "";
+      width: 60px;
+      height: 4px;
+      display: block;
+      background-color: #6f6f6f;
+      position: relative;
+      left: 47%;
+      bottom: 10px; }
+  .contact_us form .form-control {
+    border-radius: 0;
+    border: none; }
+  .contact_us form input {
+    height: 57px; }
+  .contact_us form textarea {
+    resize: none;
+    height: 207px; }
+  .contact_us form button {
+    color: black;
+    font-size: 16px;
+    font-family: "Asap-Medium";
+    display: inline-block;
+    width: 123px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    background-color: #FFFFFF; }
+    .contact_us form button:hover {
+      background-color: #ffffff;
+      border: solid 1px white;
+      -webkit-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27); }
+    .contact_us form button:focus {
+      background-color: #ffffff;
+      border: solid 1px white;
+      -webkit-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      -moz-box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27);
+      box-shadow: 0px 5px 60px 3px rgba(0, 0, 0, 0.27); }
+    .contact_us form button:after {
+      content: "\f124";
+      font-weight: 900;
+      font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Free';
+      margin-left: 7px; }
 
 /*# sourceMappingURL=main_styles.css.map */
